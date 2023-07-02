@@ -1,5 +1,10 @@
 <resources>
     <string name="app_name">AndriodShowCase</string>
+    <string name="student_form">Student Form (Widgets example)</string>
     <string name="nav_open">Open</string>
     <string name="nav_close">Close</string>
+    <string-array name="student_form_select_option">
+        <item>BCA</item>
+        <item>BScsit</item>
+    </string-array>
 </resources>

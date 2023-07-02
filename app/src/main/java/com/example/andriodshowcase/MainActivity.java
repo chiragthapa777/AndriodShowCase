@@ -9,9 +9,12 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.MenuItem;
 
+import com.example.andriodshowcase.activities.layout.AbsoluteLayoutExample;
+import com.example.andriodshowcase.activities.layout.ConstraintLayoutExample;
 import com.example.andriodshowcase.activities.layout.LinearLayoutExample;
 import com.example.andriodshowcase.activities.layout.RelativeLayoutExample;
 import com.example.andriodshowcase.activities.layout.TableLayoutExample;
+import com.example.andriodshowcase.activities.widgets.StudentForm;
 import com.google.android.material.navigation.NavigationView;
 
 public class MainActivity extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener {
@@ -72,6 +75,21 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
             }
             case R.id.table_layout:{
                 Intent intent = new Intent(this, TableLayoutExample.class);
+                startActivity(intent);
+                break;
+            }
+            case R.id.absolute_layout:{
+                Intent intent = new Intent(this, AbsoluteLayoutExample.class);
+                startActivity(intent);
+                break;
+            }
+            case R.id.constraint_layout:{
+                Intent intent = new Intent(this, ConstraintLayoutExample.class);
+                startActivity(intent);
+                break;
+            }
+            case R.id.student_form:{
+                Intent intent = new Intent(this, StudentForm.class);
                 startActivity(intent);
                 break;
             }

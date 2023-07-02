@@ -25,4 +25,10 @@
                 android:title="Absolute Layout" />
         </menu>
     </item>
+
+    <item
+        android:id="@+id/student_form"
+        android:title="Student Form"
+        android:icon="@drawable/ic_baseline_person_add_alt_1_24"
+        />
 </menu>
