@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"  xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="HardcodedText">
+    <item
+        android:id="@+id/home"
+        android:title="Home"
+        android:icon="@drawable/ic_baseline_home_24"
+        />
+    <item android:title="Andriod Layout">
+        <menu>
+            <item
+                android:id="@+id/linear_layout"
+                android:title="Linear Layout" />
+            <item
+                android:id="@+id/relative_layout"
+                android:title="Relative Layout" />
+            <item
+                android:id="@+id/table_layout"
+                android:title="Table Layout" />
+            <item
+                android:id="@+id/constraint_layout"
+                android:title="Constraint Layout" />
+            <item
+                android:id="@+id/absolute_layout"
+                android:title="Absolute Layout" />
+        </menu>
+    </item>
+</menu>
