@@ -13,12 +13,20 @@
         android:theme="@style/Theme.AndriodShowCase"
         tools:targetApi="31">
         <activity
+            android:name=".activities.layout.TableLayoutExample"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
             android:name=".activities.layout.LinearLayoutExample"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
+        <activity android:name=".activities.layout.RelativeLayoutExample"></activity>
         <activity
             android:name=".activities.common.CommonAppBar"
             android:exported="false">

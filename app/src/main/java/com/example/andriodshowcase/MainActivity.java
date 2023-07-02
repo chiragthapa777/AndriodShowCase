@@ -10,6 +10,8 @@ import android.os.Bundle;
 import android.view.MenuItem;
 
 import com.example.andriodshowcase.activities.layout.LinearLayoutExample;
+import com.example.andriodshowcase.activities.layout.RelativeLayoutExample;
+import com.example.andriodshowcase.activities.layout.TableLayoutExample;
 import com.google.android.material.navigation.NavigationView;
 
 public class MainActivity extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener {
@@ -60,6 +62,16 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         switch (item.getItemId()){
             case R.id.linear_layout:{
                 Intent intent = new Intent(this, LinearLayoutExample.class);
+                startActivity(intent);
+                break;
+            }
+            case R.id.relative_layout:{
+                Intent intent = new Intent(this, RelativeLayoutExample.class);
+                startActivity(intent);
+                break;
+            }
+            case R.id.table_layout:{
+                Intent intent = new Intent(this, TableLayoutExample.class);
                 startActivity(intent);
                 break;
             }

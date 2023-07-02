@@ -18,7 +18,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="128dp"
             android:gravity="center"
-            android:text="GeeksforGeeks"
+            android:text="Andriod Project Sixth Semester"
             android:textSize="18sp" />
     </LinearLayout>
 
